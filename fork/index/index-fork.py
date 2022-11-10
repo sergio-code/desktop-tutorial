@@ -7,6 +7,8 @@
 # developer: Sergio Depetris
 ##############################
 import openpyxl
+import calendario_prueba
+
 #main-resources
 
 marca = "HIDROFA", "GAMMA", "KARCHER", "LUSQTOFF", "BLACK&DECKER", "NIWA", "ELECTROLUX", "DAEWO", "MOTOMEL", "ECHO", "STHILL"
