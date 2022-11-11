@@ -1,5 +1,15 @@
 # Welcome to GitHub Desktop!
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+PROYECTO HIDROLAVADORA
+**************************************************
+APLICACION: LAVATODO
+PROGRAMA: H-HIDROLAVADORA
+OBJETO: BUSCAR HIDROLAVADORA DE CATALOGO
+ANALISTA: SERGIO DEPETRIS
+PROGRAMADOR: SERGIO DEPETRIS
+FECHA: 19/09/2022
+**************************************************
+Descripcion: Este programa está realizado con el objetivo de buscar hidrolavadoras de diferentes marcas y presiones de trabajo, facilitando al cliente la elección entre las diferentes hidrolavadora para adaptarlas a cada necesidad.
+En el programa se facilita los codigos de busqueda por parametros, modelos y cuenta con una tabla + superdescriptor. 
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+prueba 1
