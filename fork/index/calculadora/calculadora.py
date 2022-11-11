@@ -1,5 +1,5 @@
 #############################
-# Calculadora proyecto1
+# Calculadora 1
 # Subir a Github
 # release: 10/11/2022
 # desarrollador: Sergio Depetris
