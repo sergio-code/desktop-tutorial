@@ -9,7 +9,7 @@
 
 from tkinter import N, Y
 import openpyxl
-import calendario_prueba
+import calendario
 #importación de archivos.py
 #main-resources
 
