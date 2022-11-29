@@ -24,6 +24,7 @@ Comenzar = Y, N
 #Variable de compra
 cuentaMarca = 0
 cuentaPresion = 0
+
 cuentaMarcaTotal = cuentaMarca
 cuentaPresionTotal = cuentaPresion
 
@@ -69,13 +70,13 @@ def quiereComenzar():
      while True:
         if marca == "HIDROFA" or marca == "GAMMA" or marca == "KARCHER" or marca == "LUSQTOFF" or marca == "BLACK&DECKER" or marca == "NIWA" or marca == "ELECTROLUX" or marca == "DAEWO" or marca == "MOTOMEL" or marca == "ECHO" or marca == "STHILL":
             cuentaMarca+=1
-            print(cuentaMarca)
+            print(f"""MarcaElegida: {cuentaMarca}""")
             break
         continue
      while True:    
             if presion == 100 or presion == 150 or presion == 200:
                 cuentaPresion+=1
-                print(cuentaPresion)
+                print(f"""PresionElegida: {cuentaPresion}""")
                 break
             else:
                 print ("estamos indesiso")
@@ -87,8 +88,6 @@ def quiereComenzar():
 
 
 
-
-
 while True:
     continuar = input("¿Agregar al carrito?")
     if continuar != N:
@@ -96,4 +95,5 @@ while True:
     else:
         print("Gracias Totales")
         break
+ 
     continue
