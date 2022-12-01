@@ -28,9 +28,9 @@ cuentaPresion = 0
 cuentaMarcaTotal = cuentaMarca
 cuentaPresionTotal = cuentaPresion
 
-def quiereComenzar():
- while True:
-    Comenzar = input("¿Seguro?")
+#def quiereComenzar():
+while True:
+    Comenzar = input("¿Comenzar/Seguir?")
     if Comenzar != N:
 
      while True:
@@ -64,36 +64,29 @@ def quiereComenzar():
 
      #"calendar"
        
-     cuentaMarca = 0
-     cuentaPresion = 0
             
      while True:
-        if marca == "HIDROFA" or marca == "GAMMA" or marca == "KARCHER" or marca == "LUSQTOFF" or marca == "BLACK&DECKER" or marca == "NIWA" or marca == "ELECTROLUX" or marca == "DAEWO" or marca == "MOTOMEL" or marca == "ECHO" or marca == "STHILL":
-            cuentaMarca+=1
-            print(f"""MarcaElegida: {cuentaMarca}""")
-            break
-        continue
+            if marca == "HIDROFA" or marca == "GAMMA" or marca == "KARCHER" or marca == "LUSQTOFF" or marca == "BLACK&DECKER" or marca == "NIWA" or marca == "ELECTROLUX" or marca == "DAEWO" or marca == "MOTOMEL" or marca == "ECHO" or marca == "STHILL":
+                cuentaMarca+=1
+                print(f"""MarcaElegida: {cuentaMarca}""")
+                break
+            continue
      while True:    
             if presion == 100 or presion == 150 or presion == 200:
                 cuentaPresion+=1
                 print(f"""PresionElegida: {cuentaPresion}""")
-                break
-            else:
-                print ("estamos indesiso")
-                break
+                break               
     else:
         print("que queres?")
-    break
-    continue
-
-
-
-while True:
-    continuar = input("¿Agregar al carrito?")
-    if continuar != N:
-        quiereComenzar() 
-    else:
-        print("Gracias Totales")
+        break
+    
+    while True:
+        continuar = input("¿Agregar al carrito?")
+        if continuar != N:
+# De aca hacia abajo el programa no lo corre
+            Comenzar() 
+        else:
+         print("Gracias Totales")
         break
  
     continue
