@@ -56,7 +56,7 @@ while True:
      #variableUsuario
 
      #definimos la ubicacion del archivo
-     wb = openpyxl.load_workbook("C:\Desarrollo GIT\contactos\emails\excel-emails.xlsx")
+     #wb = openpyxl.load_workbook("C:\Desarrollo GIT\contactos\emails\excel-emails.xlsx")
      #definimos la ubicacion del archivo
      #print("wb.sheetname")
      #ws = wb.get_sheet_by_name("CLIENTE")
@@ -68,13 +68,13 @@ while True:
      while True:
             if marca == "HIDROFA" or marca == "GAMMA" or marca == "KARCHER" or marca == "LUSQTOFF" or marca == "BLACK&DECKER" or marca == "NIWA" or marca == "ELECTROLUX" or marca == "DAEWO" or marca == "MOTOMEL" or marca == "ECHO" or marca == "STHILL":
                 cuentaMarca+=1
-                print(f"""MarcaElegida: {cuentaMarca}""")
+                print(f"""MarcaElegida: {cuentaMarca}-{marca}""")
                 break
             continue
      while True:    
             if presion == 100 or presion == 150 or presion == 200:
                 cuentaPresion+=1
-                print(f"""PresionElegida: {cuentaPresion}""")
+                print(f"""PresionElegida: {cuentaPresion}-{presion}""")
                 break               
     else:
         print("que queres?")
