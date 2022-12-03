@@ -19,7 +19,7 @@ presion = 100, 150, 200
 
 quiereComenzar = Y,N
 continuar = Y,N
-Comenzar = Y, N
+Comenzar = "Y"
 
 #Variable de compra
 cuentaMarca = 0
@@ -31,7 +31,7 @@ cuentaPresionTotal = cuentaPresion
 #def quiereComenzar():
 while True:
     Comenzar = input("¿Comenzar/Seguir?")
-    if Comenzar != N:
+    if Comenzar == "Y":
 
      while True:
         marca = input('ingrese marca')
@@ -56,7 +56,7 @@ while True:
      #variableUsuario
 
      #definimos la ubicacion del archivo
-     #wb = openpyxl.load_workbook("C:\Desarrollo GIT\contactos\emails\excel-emails.xlsx")
+     wb = openpyxl.load_workbook("C:\Desarrollo GIT\contactos\emails\excel-emails.xlsx")
      #definimos la ubicacion del archivo
      #print("wb.sheetname")
      #ws = wb.get_sheet_by_name("CLIENTE")
@@ -80,13 +80,4 @@ while True:
         print("que queres?")
         break
     
-    while True:
-        continuar = input("¿Agregar al carrito?")
-        if continuar != N:
-# De aca hacia abajo el programa no lo corre
-            Comenzar() 
-        else:
-         print("Gracias Totales")
-        break
- 
-    continue
+    
